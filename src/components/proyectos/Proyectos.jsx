@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from '../layaout/Sidebar';
+import Sidebar from '../layout/Sidebar';
 const Proyectos = () => {
     return (
         <div className="contenedor-app">
