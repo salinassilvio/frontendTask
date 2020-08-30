@@ -91,7 +91,7 @@ const NuevaCuenta = () => {
                         />
                     </div>
                 </form>
-                <Link to={'/nueva-cuenta'} className="enlace-cuenta">
+                <Link to={'/'} className="enlace-cuenta">
                     Vuelve a Iniciar Sesión
                 </Link>
             </div>
