@@ -1,8 +1,17 @@
-import React from 'react'
-
+import React from 'react';
+import Sidebar from '../layaout/Sidebar';
 const Proyectos = () => {
     return (
-        <h1>Desde Proyecto</h1>
+        <div className="contenedor-app">
+            <Sidebar></Sidebar>
+            <div className="section-principal">
+                <main>
+                    <div className="contenedor-tareas">
+
+                    </div>
+                </main>
+            </div>
+        </div>
     )
 }
 
